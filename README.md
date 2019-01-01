@@ -8,7 +8,7 @@ Work in progress.
 
 ## Background
 
-TempleOS was originally created by Terry A. Davis. Due to an unfortunate turn of events, he is no longer able to maintain this project.\
+TempleOS was originally created by Terry A. Davis. Due to his unfortunate passing, he is no longer maintaining this project.\
 This repository aims to improve upon the last release by Terry (v5.03 2017 November 20th).\
 We will try our best to conform to Terry's original design philosophies while attempting to attract a larger audience through various changes and upgrades.
 
