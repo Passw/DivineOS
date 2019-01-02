@@ -27,6 +27,39 @@ We will try our best to conform to Terry's original design philosophies while at
 
 TempleOS is a 64 bit, non-preemptive multi-tasking, multi-cored, public domain, open source, ring-0-only, single address space, non-networked, PC operating system for recreational programming. The OS runs 8-bit ASCII with graphics in source code and has a 2D and 3D graphics library, which run at 640x480 VGA with 16 colors. Like most modern operating systems, it has keyboard and mouse support. It supports ISO 9660, FAT32 and RedSea file systems (the latter created by Davis) with support for file compression. Many of these specifications—such as the 640x480 resolution, 16 color display, and single audio voice—were instructed to him by God. It also included an original flight simulator, compiler, and kernel.
 
+## Keyboard Shortcuts
+
+### General
+- <kbd>Esc</kbd> Save & Exit 
+- <kbd>Shift</kbd>+<kbd>Esc</kbd> Abort	& Exit
+- <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> Reboot 
+
+### Editing
+- <kbd>Ctrl</kbd>+<kbd>S</kbd> Save
+- <kbd>Ctrl</kbd>+<kbd>A</kbd> Save As
+- <kbd>Alt</kbd>+<kbd>Backspace</kbd> Undo
+- <kbd>Ctrl</kbd>+<kbd>←</kbd> Beginning of Line
+- <kbd>Ctrl</kbd>+<kbd>→</kbd> End of Line
+- <kbd>Ctrl</kbd>+<kbd>↑</kbd>, <kbd>Home</kbd> Top of Document
+- <kbd>Ctrl</kbd>+<kbd>↓</kbd>, <kbd>End</kbd> Bottom of Document
+- <kbd>Ctrl</kbd>+<kbd>T</kbd> Toggle DolDoc Render
+- <kbd>F5</kbd> JIT Compile
+  
+### AutoComplete
+- <kbd>Alt</kbd>+<kbd>A</kbd> AutoComplete ON 
+- <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>A</kbd> AutoComplete OFF 
+
+### Window Manager
+- <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd> Focus Next Task (Like Alt+Tab)
+- <kbd>Ctrl</kbd>+<kbd>X</kbd> Kill Current Task (Like Alt+F4)
+- <kbd>Alt</kbd>+<kbd>M</kbd> Maximize Task
+- <kbd>Alt</kbd>+<kbd>V</kbd> Tile Tasks Vertically
+- <kbd>Alt</kbd>+<kbd>H</kbd> Tile Tasks Horizontally\
+If there is only a single task, both of the tiling shortcuts can be used to make a task take up the whole screen space.
+- <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd> New Terminal
+- <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Esc</kbd> New Terminal\
+(More to come!)
+
 ## TODO
 
 * [ ] Add build instructions
