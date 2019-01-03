@@ -1,4 +1,4 @@
-# TempleOS - Public Domain Operating System
+# DivineOS - Public Domain Operating System
 
 ![alt text](https://i.ytimg.com/vi/mivUzwc3Qv8/maxresdefault_live.jpg)
 
