@@ -50,7 +50,7 @@ TempleOS is a 64 bit, non-preemptive multi-tasking, multi-cored, public domain, 
 - <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>A</kbd> AutoComplete OFF 
 
 ### Window Manager
-- <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd> Focus Next Task (Like Alt+Tab)
+- <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>N</kbd> Focus Next Task (Like Alt+Tab)
 - <kbd>Ctrl</kbd>+<kbd>X</kbd> Kill Current Task (Like Alt+F4)
 - <kbd>Alt</kbd>+<kbd>M</kbd> Maximize Task
 - <kbd>Alt</kbd>+<kbd>V</kbd> Tile Tasks Vertically
