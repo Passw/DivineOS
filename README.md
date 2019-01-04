@@ -33,6 +33,7 @@ TempleOS is a 64 bit, non-preemptive multi-tasking, multi-cored, public domain, 
 - <kbd>Esc</kbd> Save & Exit 
 - <kbd>Shift</kbd>+<kbd>Esc</kbd> Abort	& Exit
 - <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> Reboot 
+- <kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> Soft Reboot 
 
 ### Editing
 - <kbd>Ctrl</kbd>+<kbd>S</kbd> Save
