@@ -21,11 +21,11 @@ U0 SrvStartUp()
 
 U0 StartUpTasks()
 {
-  CTask *user = User;
+  CTask *user=User;
   WinToTop(user);
   WinTileVert;
   "Boot Time:%7.3fs\n",tS;
-  XTalk(user1,"Cd;#include \"Once\";\n");
+  XTalk(user,"Cd;#include \"Once\";\n");
   Silent;	//no output to scrn
   ACInit("/*;!*/Bible.TXT*");
   Silent(OFF); //no output to scrn
@@ -33,4 +33,4 @@ U0 StartUpTasks()
 
 StartUpTasks;
 
-"\nTempleOS V%5.3f\t%D %T\n\n",sys_os_version,sys_compile_time,sys_compile_time;
+"\nDivineOS V%5.3f\t%D %T\n\n",sys_os_version,sys_compile_time,sys_compile_time;

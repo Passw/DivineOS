@@ -93,7 +93,7 @@ $FG,2$Merge(\"C:/*\",\"D:/*\",\"+r+d\");$FG$ to check my changes.
 
 * You can access the word under the cursor at $LK,"ac.cur_word",A="MN:CAutoCompleteGlbls"$.
 
-* You can reactivate $FG,2$AutoComplete$FG$ after closing it by pressing $FG,2$<CTRL-Fun Key>$FG$ or $FG,2$<ALT-w>$FG$ if you have it defined.
+* You can reactivate $FG,2$AutoComplete$FG$ after closing it by pressing $FG,2$<CTRL-Fun Key>$FG$ or $FG,2$<ALT-a>$FG$ if you have it defined.
 
 * $FG,2$<CTRL-SHIFT-T>$FG$ to toggle to/from plain text just the $LK,"CDoc",A="MN:CDoc"$ cmd under the cursor.  See $LK,"::/Demo/DolDoc/TextDemo.HC"$.
  
