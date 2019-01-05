@@ -85,7 +85,7 @@ or using as a todo list. See `::/Demo/AcctExample/PersonalNotes.DD.Z`.
 
 #### Disable the top border flashing and scrolling
 This can also get annoying at times. To do this, you will have to edit 2 files.\
-Firstly, Edit `::/Adam/DolDoc/DocTerm.HC.Z`. Go to line 30 using <kbd>Ctrl</kbd>+<kbd>G</kbd>. Remove `,SCX=15`. This stops the scrolling terminal title.\
+Firstly, Edit `::/Adam/DolDoc/DocTerm.HC.Z`. Go to line 30 using <kbd>Ctrl</kbd>+<kbd>G</kbd>. Remove `...` and `,SCX=15`. This stops the scrolling terminal title.\
 Then go to line 35. Remove both `$BK,1$` and `$BK,0$`. This stops MENU from flashing.\
 The second file is `::/Adam/DolDoc/DocEd.HC.Z`. Go to lines 105 and 113 and remove the same code as above.\
 Do a Soft Reboot <kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> to recompile.
@@ -94,8 +94,6 @@ Read `::/Doc/GuideLines.DD.Z` for a quick rundown on how the files are setup.
 
 ##### HolyC
 For HolyC, read the HolyC DolDoc, and then get started on the Demo Index (both are in the help menu, accessible by <kbd>F1</kbd>).
-
-##### 
 
 ## TODO
 
