@@ -35,6 +35,7 @@ TempleOS is a 64 bit, non-preemptive multi-tasking, multi-cored, public domain, 
 - <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> Reboot 
 - <kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> Soft Reboot 
 - <kbd>Ctrl</kbd>+<kbd>D</kbd> File Manager
+- <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>B</kbd> Bible View
 
 ### Editing
 - <kbd>Ctrl</kbd>+<kbd>S</kbd> Save
@@ -95,6 +96,16 @@ Read `::/Doc/GuideLines.DD.Z` for a quick rundown on how the files are setup.
 ##### HolyC
 For HolyC, read the HolyC DolDoc, and then get started on the Demo Index (both are in the help menu, accessible by <kbd>F1</kbd>).
 
+#### Supplementary Disks
+TempleOS has 3 Supplementary disks, with various things on them, including games, software, and lots of hymns. Download from [templeos.org](https://templeos.org/Downloads).\
+Make sure you only have one CD drive in your VM. Insert the ISO into your VM CD drive. You may have to rename the "ISO.C" ending to "iso".\
+In TempleOS, Make sure that the T drive is mounted using `DrvRep;`. Switch over to your inserted Supplemental Disk using `Drv('T');`, or use the File Manager to browse.\
+If you open a file in the editor and try to run using <kbd>F5</kbd> it will cause an exception because the editor will try to save the file: the ISOs are read-only. Try to run from the terminal by `#include`ing or press <kbd>F5</kbd> on the filename.
+We recommend copying over items you want to work on to your Home directory so you can edit them. Example:
+```c
+CopyTree("T:/Sup1Utils", "~/Sup1Utils");
+```
+Don't forget to check out `Sup1Graphics/TOSTheme.HC.Z`!
 ## TODO
 
 * [ ] Add build instructions
