@@ -35,6 +35,9 @@ U0 MakeMyISO(U8 *_out_iso_filename)
   CopyTree("/Downloads","/Distro/Downloads");	  //You can leave this out.
   DirMk("/Distro/Tmp");
   DirMk("/Distro/Tmp/ScrnShots");
+  
+  Zip("/Distro/Adam/AutoComplete/ACDefs.DATA");
+  
   RedSeaISO(out_iso_filename,"/Distro","/Distro" BOOT_DIR_KERNEL_BIN_C);
 
   //If CD-ROM use MT_CD instead of MT_DVD.
